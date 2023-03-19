@@ -8,8 +8,9 @@ Imagens dos gatos:
 https://www.patasdacasa.com.br/noticia/veja-em-infografico-quais-sao-as-8-racas-de-gato-mais-inteligentes_a2371/1
 
 Logos:
-(cor da logo alterada)
+(cores das logos alteradas)
 https://www.pinclipart.com/downpngs/TxbxJm_feline-clipart-cat-logo-logo-de-gatos-png/
+
 https://www.pinclipart.com/downpngs/iTbiRoi_logo-cat-paw-logo-clipart/
 
 Fontes:
