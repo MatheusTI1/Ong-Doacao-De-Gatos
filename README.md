@@ -4,19 +4,19 @@ O objetivo deste projeto é desenvolver desde a modelagem UML até a implementa�
 
 Bibliografia:
 
-<Imagens dos gatos>
+Imagens dos gatos:
 https://www.patasdacasa.com.br/noticia/veja-em-infografico-quais-sao-as-8-racas-de-gato-mais-inteligentes_a2371/1
 
-<Logos>
+Logos:
 (cor da logo alterada)
 https://www.pinclipart.com/downpngs/TxbxJm_feline-clipart-cat-logo-logo-de-gatos-png/
 https://www.pinclipart.com/downpngs/iTbiRoi_logo-cat-paw-logo-clipart/
 
-<Fontes>
+Fontes:
 fonts.google.com
 
-<icones>
+icones:
 https://boxicons.com/
 
-<removedor de fundo utilizado para edição das imagens>
+removedor de fundo utilizado para edição das imagens:
 https://www.remove.bg/pt-br/upload
