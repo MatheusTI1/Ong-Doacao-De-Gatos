@@ -6,7 +6,7 @@
 
 ### UML
 ## Casos de uso
-  
+  ![Diagrama_De_Casos_ONG](https://user-images.githubusercontent.com/124316476/226222726-27f8b656-4d77-41a4-a4fa-da35bb4f23f2.png)
 ## Tecnologias Usadas:
 
 <table>
