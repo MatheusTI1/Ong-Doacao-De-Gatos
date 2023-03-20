@@ -6,7 +6,13 @@
 
 ### UML
 ## Casos de uso
-  ![Diagrama_De_Casos_ONG](https://user-images.githubusercontent.com/124316476/226222726-27f8b656-4d77-41a4-a4fa-da35bb4f23f2.png)
+  ![Diagrama_De_Casos_ONG](https://user-images.githubusercontent.com/124316476/226222974-40edb7d0-e06a-4323-a90a-35e2fc000efd.png)
+## Diagrama de Classes
+  ![Diagrama_De_Classes_ONG](https://user-images.githubusercontent.com/124316476/226225303-edd4f18e-a7fe-4fa5-9e6a-eb424a667d27.PNG)
+## Diagrama de Sequência
+  ![Diagrama_De_Sequencia_ONG](https://user-images.githubusercontent.com/124316476/226225400-5639cbf5-0408-498c-8847-543325d06c9e.PNG)
+
+  
 ## Tecnologias Usadas:
 
 <table>
