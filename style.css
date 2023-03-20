@@ -1,25 +1,27 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Caveat", cursive;
+  padding: 0; /* Define o valor da margem horizontal padrao em 0 */
+  margin: 0; /* Define o valor da margem vertical padrao em 0 */
+  box-sizing: border-box; /* Define o tamanho da borda */
+  font-family: "Caveat", cursive; /* Importa a fonte  */
   text-decoration: none;
   list-style: none;
 }
 :root {
-  --text-color: #000000;
-  --bg-color: #f2dae5;
-  --main-color: #db818b;
-  --navegar-color: #f1d2ba;
-  --header-color: #974459;
-  --big-font: 5.5rem;
-  --p-font: 1rem;
+  --text-color: #000000; /* Define cores que seraão utilizadas posteriormentes  */
+  --bg-color: #f2dae5; /* Define cores que seraão utilizadas posteriormentes  */
+  --main-color: #db818b; /* Define cores que seraão utilizadas posteriormentes  */
+  --navegar-color: #f1d2ba; /* Define cores que seraão utilizadas posteriormentes  */
+  --header-color: #974459; /* Define cores que seraão utilizadas posteriormentes  */
+  --second-clor: #fff; /* Define cores que seraão utilizadas posteriormentes  */
+  /* --big-font: 5.5rem;
+  --p-font: 1rem; */
 }
 body {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color); /* Define cor de fundo do body*/
+  color: var(--text-color); /* NÃO SEI*/
 }
 header {
-  background-color: var(--header-color);
+  background-color: var(--header-color); /* Define cor de fundo do header*/
   position: fixed;
   top: 0px;
   right: 0px;
@@ -29,12 +31,105 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0px 9%;
-  transition: all ease 0.55s;
+  transition: all ease 0.55s; /* cria transição para f5*/
 }
-.logo {
+.Logo {
   display: flex;
   align-items: center;
   color: var(--text-color);
   font-size: 40px;
   font-weight: bold;
+}
+.Logo i {
+  vertical-align: middle; /* NÃO SEI*/
+  color: var(--main-color);
+  font-size: 35px; /* NÃO SEI*/
+  margin-right: 5px; /* NÃO SEI*/
+}
+.Lista_Navegar {
+  display: flex;
+}
+.Lista_Navegar a {
+  font-size: 25px; /*Alterando tamanho da fonte*/
+  color: var(--text-color); /*alterando Cor da fonte*/
+  font-weight: 700; /*Alterando corpo da fonte*/
+  margin: 0 35px; /*Criando margen para separar as seções*/
+  transition: all ease 0.55s; /*Cria transição para f5*/
+}
+.Lista_Navegar a:hover {
+  color: var(--navegar-color);
+  /*Altera a cor opção ao mover o mouse para cima dela*/
+}
+.Lista_Navegar a.active {
+  color: var(--navegar-color); /*Altera a cor da seção atual*/
+}
+.Adocao {
+  display: flex; /*Centralizar*/
+  align-items: center; /*Centralizar*/
+}
+.Adote {
+  display: inline-block;
+  padding: 10px 25px;
+  color: var(--second-clor);
+  background: var(--main-color);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  margin-right: 20px;
+  transition: all ease 0.55s;
+}
+.Adote:hover {
+  background: var(--navegar-color);
+  border: 2px solid var(--main-color);
+  color: var(--text-color);
+}
+#Icone_Menu {
+  font-size: 40px;
+  color: var(--text-color);
+  z-index: 10001;
+  margin: 15px;
+  display: none;
+}
+#Modo_Escuro {
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--text-color);
+  margin-left: 10px;
+}
+section {
+  padding: 0 12%;
+}
+/* não sei */
+.Principal {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+.Texto_Principal {
+  font-size: 20px;
+}
+.Imagem_Principal {
+  height: 300px;
+  width: 300px;
+}
+.Imagem_Principal img {
+  width: 100%;
+  height: 150%;
+  object-fit: contain;
+}
+.Principais_Imagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  align-self: center;
+  text-align: center;
+}
+.Principais_Imagens img {
+  height: 200px;
+  width: 200px;
 }
