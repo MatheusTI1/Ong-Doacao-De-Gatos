@@ -6,3 +6,35 @@
   text-decoration: none;
   list-style: none;
 }
+:root {
+  --text-color: #000000;
+  --bg-color: #f2dae5;
+  --main-color: #db818b;
+  --navegar-color: #f1d2ba;
+  --header-color: #974459;
+  --big-font: 5.5rem;
+  --p-font: 1rem;
+}
+body {
+  background-color: var(--bg-color);
+}
+header {
+  background-color: var(--header-color);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 9%;
+  transition: all ease 0.55s;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 40px;
+  font-weight: bold;
+}
