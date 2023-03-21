@@ -36,14 +36,14 @@ header {
 .Logo {
   display: flex;
   align-items: center;
-  color: var(--text-color);
-  font-size: 40px;
+  color: var(--main-color);
+  font-size: 30px;
   font-weight: bold;
 }
 .Logo i {
   vertical-align: middle; /* NÃO SEI*/
   color: var(--main-color);
-  font-size: 35px; /* NÃO SEI*/
+  font-size: 40px; /* NÃO SEI*/
   margin-right: 5px; /* NÃO SEI*/
 }
 .Lista_Navegar {
@@ -72,7 +72,7 @@ header {
   padding: 10px 25px;
   color: var(--second-clor);
   background: var(--main-color);
-  font-size: 14px;
+  font-size: px;
   font-weight: 500;
   border-radius: 5px;
   border: 2px solid var(--main-color);
@@ -114,7 +114,7 @@ section {
   font-size: 20px;
 }
 .Imagem_Principal {
-  height: 300px;
+  height: 500px;
   width: 300px;
 }
 .Imagem_Principal img {
@@ -132,4 +132,46 @@ section {
 .Principais_Imagens img {
   height: 200px;
   width: 200px;
+}
+.Texto_Principal h1 {
+  /* font-size: var(--big-font); */
+  color: var(--main-color);
+  line-height: 2.9;
+  font-size: 80px;
+}
+.Texto_Principal h4 {
+  margin: 5px 0 5px;
+  color: var(--header-color);
+  text-shadow: -0.7px -0.7px 0px #fff, -0.7px 0.7px 0px #fff,
+    0.7px -0.7px 0px #fff, 0.7px 0px 0px #fff;
+  font-size: 20px;
+}
+/* .Texto_Principal h3 {
+  color: var(--main-color);
+} */
+.Texto_Principal {
+  font-size: 20px;
+}
+.Caixa {
+  background: var(--header-color);
+  /* padding: 25px 40px; */
+  border-radius: 1rem;
+  box-shadow: rgba(33, 35, 38, 01) 0px 15px 10px -10px;
+  transition: all ease 0.55s;
+  cursor: pointer;
+}
+.Caixa {
+  max-width: 100%;
+  height: auto;
+}
+.Caixa h3 {
+  color: var(--main-color);
+  font-size: 20px;
+  /* font-weight: 400; */
+  text-shadow: -0.7px -0.7px 0px #000000, -0.7px 0.7px 0px #000000,
+    0.7px -0.7px 0px #000000, 0.7px 0px 0px #000000;
+  letter-spacing: 0px;
+}
+.Caixa:hover {
+  transform: translate(-5px) scale(1.1);
 }
