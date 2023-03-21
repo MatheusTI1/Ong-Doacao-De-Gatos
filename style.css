@@ -13,8 +13,8 @@
   --navegar-color: #f1d2ba; /* Define cores que seraão utilizadas posteriormentes  */
   --header-color: #974459; /* Define cores que seraão utilizadas posteriormentes  */
   --second-clor: #fff; /* Define cores que seraão utilizadas posteriormentes  */
-  /* --big-font: 5.5rem;
-  --p-font: 1rem; */
+  --big-font: 5.5rem;
+  --p-font: 1rem;
 }
 body {
   background-color: var(--bg-color); /* Define cor de fundo do body*/
@@ -84,19 +84,7 @@ header {
   border: 2px solid var(--main-color);
   color: var(--text-color);
 }
-#Icone_Menu {
-  font-size: 40px;
-  color: var(--text-color);
-  z-index: 10001;
-  margin: 15px;
-  display: none;
-}
-#Modo_Escuro {
-  font-size: 30px;
-  cursor: pointer;
-  color: var(--text-color);
-  margin-left: 10px;
-}
+
 section {
   padding: 0 12%;
 }
@@ -134,7 +122,7 @@ section {
   width: 200px;
 }
 .Texto_Principal h1 {
-  /* font-size: var(--big-font); */
+  font-size: var(--big-font);
   color: var(--main-color);
   line-height: 2.9;
   font-size: 80px;
@@ -174,4 +162,18 @@ section {
 }
 .Caixa:hover {
   transform: translate(-5px) scale(1.1);
+}
+@media (max-width: 1600px) {
+  header {
+    padding: 13px 3%;
+  }
+  section {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 1600px) {
+  .Imagem_Principal {
+    height: 700px;
+    width: 500px;
+  }
 }
