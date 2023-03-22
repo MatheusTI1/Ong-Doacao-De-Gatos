@@ -98,13 +98,6 @@ section {
   align-items: center;
   gap: 1rem;
 }
-.Texto_Principal {
-  font-size: 20px;
-}
-.Texto_Principal h1 {
-  text-shadow: -0.7px -0.7px 0px #fff, -0.7px 0.7px 0px #fff,
-    0.7px -0.7px 0px #fff, 0.7px 0px 0px #fff;
-}
 .Imagem_Principal {
   height: 700px;
   width: 500px;
@@ -128,10 +121,14 @@ section {
   width: 200px;
 }
 .Texto_Principal h1 {
-  font-size: var(--big-font);
+  /* font-size: var(--big-font); */
   color: var(--main-color);
-  line-height: 2.9;
-  font-size: 80px;
+  /* line-height: 2.9; */
+  position: relative;
+  top: 20px;
+  font-size: 90px;
+  text-shadow: -0.7px -0.7px 0px #fff, -0.7px 0.7px 0px #fff,
+    0.7px -0.7px 0px #fff, 0.7px 0px 0px #fff;
 }
 .Texto_Principal h4 {
   margin: 5px 0 5px;
