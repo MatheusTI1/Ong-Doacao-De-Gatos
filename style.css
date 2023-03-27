@@ -131,6 +131,8 @@ section {
     0.7px -0.7px 0px #fff, 0.7px 0px 0px #fff;
 }
 .Texto_Principal h4 {
+  position: relative;
+  top: -30px;
   margin: 5px 0 5px;
   color: var(--header-color);
   text-shadow: -0.7px -0.7px 0px #fff, -0.7px 0.7px 0px #fff,
@@ -142,6 +144,10 @@ section {
 } */
 .Texto_Principal {
   font-size: 20px;
+}
+.Texto_Principal p {
+  position: relative;
+  top: -20px;
 }
 .Caixa {
   background: var(--header-color);
@@ -220,6 +226,10 @@ section {
   .Texto_Principal h1 {
     font-size: 60px;
     top: 1px;
+  }
+  .Texto_Principal h4 {
+    position: relative;
+    top: -15px;
   }
 
   .Principais_Imagens {
