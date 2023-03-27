@@ -252,6 +252,7 @@ section {
   }
   .Texto_Principal h1 {
     font-size: 60px;
+    position: relative;
     top: 10px;
   }
 
@@ -297,5 +298,12 @@ section {
   .Principais_Imagens img {
     height: 100px;
     width: 100px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Texto_Principal h1 {
+    font-size: 60px;
+    position: relative;
+    top: 5px;
   }
 }
