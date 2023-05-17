@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
     <!-- Associando css com o html -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
 
     <!-- Adicionando um icone a aba do navegador -->
     <link rel="icon" href="img/Logo_aba.png" />
@@ -24,93 +24,133 @@
       href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
       rel="stylesheet"
     />
+
+    <!--boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
   <body>
     <header>
-      <!-- Adicionando icone do boxicons(gato) -->
-      <a href="#" class="Logo"><i class="bx bxs-cat"></i>Miados de Esperança</a>
-      <!-- Aba navegar -->
-      <ul class="Lista_Navegar">
-        <li><a href="#" class="active">Inicio</a></li>
-        <li><a href="#">Entrar</a></li>
-        <li><a href="#">Gatos</a></li>
-        <li><a href="#">Sobre</a></li>
-      </ul>
-      <div class="Adocao">
-        <a href="#" class="Adote">Adote Agora</a>
-      </div>
-    </header>
-    <!-- Seção principal -->
-    <section class="Principal">
-      <div class="Texto_Principal">
-        <h1>Adote um Felino</h1>
-        <br />
-        <h4>Ajude a Transformar a Vida de um Gato com a Nossa ONG</h4>
-        <p>
-          A doação de gatos é uma forma muito importante de ajudar esses animais
-          que muitas vezes são abandonados e não têm um lar seguro e amoroso
-          para viver. Através da sua adoção,podemos ajudar a encontrar lares
-          permanentes para esses felinos e garantir que eles tenham uma vida
-          feliz e saudável.
-        </p>
-        <div class="Principais_Imagens">
-          <div class="Caixa">
-            <h3>Siamês</h3>
-            <img src="img/7.png" />
-          </div>
-          <div class="Caixa">
-            <h3>Sagrado da Birmândia</h3>
-            <img src="img/2.png" />
-          </div>
-          <div class="Caixa">
-            <h3>Angorá Turco</h3>
-            <img src="img/3.png" />
-          </div>
-          <div class="Caixa">
-            <h3>Abissínio</h3>
-            <img src="img/4.png" />
-          </div>
-          <div class="Caixa">
-            <h3>Sphynx</h3>
-            <img src="img/5.png" />
-          </div>
-          <div class="Caixa">
-            <h3>Balinês</h3>
-            <img src="img/6.png" />
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <!-- Adicionando icone do boxicons(gato) -->
+        <a href="#" class="Logo navbar-brand"><i class="bx bxs-cat"></i>Miados de Esperança</a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Aba navegar -->
+          <ul class="Lista_Navegar navbar-nav ml-auto">
+            <li class="nav-item"><a href="#" class="active nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Entrar</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Gatos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+          </ul>
+          <div class="Adocao">
+            <a href="#" class="Adote btn btn-primary">Adote Agora</a>
           </div>
         </div>
-      </div>
-      <div class="Imagem_Principal">
-        <img src="img/logo_cat.png" alt="" />
-      </div>
+      </nav>
+    </header>
+    
+    <!-- Seção principal -->
+    <body>
+      <section class="Principal">
+        <div class="container">
+          <div class="Texto_Principal">
+            <h1>Adote um Felino</h1>
+          </div>
+          <br />
+          <h4>Ajude a Transformar a Vida de um Gato com a Nossa ONG</h4>
+          <p>
+            A doação de gatos é uma forma muito importante de ajudar esses animais
+            que muitas vezes são abandonados e não têm um lar seguro e amoroso
+            para viver. Através da sua adoção, podemos ajudar a encontrar lares
+            permanentes para esses felinos e garantir que eles tenham uma vida
+            feliz e saudável.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="Caixa">
+                <h3>Siamês</h3>
+                <img src="img/7.png" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="Caixa">
+                <h3>Sagrado da Birmândia</h3>
+                <img src="img/2.png" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="Caixa">
+                <h3>Angorá Turco</h3>
+                <img src="img/3.png" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="Caixa">
+                <h3>Abissínio</h3>
+                <img src="img/4.png" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="Caixa">
+                <h3>Sphynx</h3>
+                <img src="img/5.png" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="Caixa">
+                <h3>Balinês</h3>
+                <img src="img/6.png" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="Imagem_Principal">
+            <img src="img/logo_cat.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+      <section class="Avisos">
+        <div class="container">
+          <h1>Requisitos:</h1>
+          <p>
+            1 - Recursos financeiros: É importante que o adotante tenha recursos
+            financeiros adequados para fornecer alimento de qualidade, cuidados
+            veterinários, acessórios, brinquedos e outros itens necessários para
+            garantir a saúde e o bem-estar do gato. <br /><br />
+            2 - Local apropriado: O adotante deve ter um local apropriado e seguro
+            para o gato, com espaço suficiente para que ele possa se mover
+            livremente e se exercitar. As janelas devem ser teladas para evitar que
+            o gato escape ou sofra acidentes. <br /><br />
+            3 - Compatibilidade: O adotante deve considerar sua compatibilidade com
+            o gato em termos de personalidade, níveis de atividade e necessidades
+            específicas, como cuidados especiais de saúde. <br /><br />
+            4 - Responsabilidade: O adotante deve estar comprometido com a
+            responsabilidade de cuidar do gato por toda a vida do animal, garantindo
+            que ele receba todos os cuidados necessários e que seja protegido de
+            qualquer ameaça. <br /><br />
+            5 - Adoção responsável: O adotante deve estar disposto a seguir todas as
+            políticas e procedimentos do abrigo ou resgate que está fornecendo o
+            gato, incluindo a assinatura de um Termo de Responsabilidade.
+            <br /><br />
+            6 - Aprovação do abrigo ou resgate: O adotante deve ser aprovado pelo
+            abrigo ou resgate antes de adotar um gato, o que pode envolver uma
+            entrevista, um questionário e uma visita domiciliar para verificar as
+            condições de moradia e as necessidades do gato. <br /><br />
+          </p>
+        </div>
+      </section>
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </section>
-    <section class="Avisos">
-      <h1>Requisitos:</h1>
-      <p>
-        1 - Recursos financeiros: É importante que o adotante tenha recursos
-        financeiros adequados para fornecer alimento de qualidade, cuidados
-        veterinários, acessórios, brinquedos e outros itens necessários para
-        garantir a saúde e o bem-estar do gato. <br /><br />
-        2 - Local apropriado: O adotante deve ter um local apropriado e seguro
-        para o gato, com espaço suficiente para que ele possa se mover
-        livremente e se exercitar. As janelas devem ser teladas para evitar que
-        o gato escape ou sofra acidentes. <br /><br />
-        3 - Compatibilidade: O adotante deve considerar sua compatibilidade com
-        o gato em termos de personalidade, níveis de atividade e necessidades
-        específicas, como cuidados especiais de saúde. <br /><br />
-        4 - Responsabilidade: O adotante deve estar comprometido com a
-        responsabilidade de cuidar do gato por toda a vida do animal, garantindo
-        que ele receba todos os cuidados necessários e que seja protegido de
-        qualquer ameaça. <br /><br />
-        5 - Adoção responsável: O adotante deve estar disposto a seguir todas as
-        políticas e procedimentos do abrigo ou resgate que está fornecendo o
-        gato, incluindo a assinatura de um Termo de Responsabilidade.
-        <br /><br />
-        6 - Aprovação do abrigo ou resgate: O adotante deve ser aprovado pelo
-        abrigo ou resgate antes de adotar um gato, o que pode envolver uma
-        entrevista, um questionário e uma visita domiciliar para verificar as
-        condições de moradia e as necessidades do gato. <br /><br />
-      </p>
-    </section>
-  </body>
+    </body>    
 </html>

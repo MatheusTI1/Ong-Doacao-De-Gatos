@@ -1,0 +1,99 @@
+:root {
+    --text-color: #000000;
+    --bg-color: #f2dae5;
+    --main-color: #db818b;
+    --navegar-color: #f1d2ba;
+    --header-color: #974459;
+    --second-color: #fff;
+    --big-font: 5.5rem;
+    --p-font: 1rem;
+  }
+
+  header {
+    background-color: var(--navegar-color);
+    padding: 20px;
+  }
+  
+  .Logo {
+    color: var(--header-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .Lista_Navegar {
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  .Lista_Navegar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .Lista_Navegar li a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  .Lista_Navegar li a.active,
+  .Lista_Navegar li a:hover {
+    color: var(--header-color);
+  }
+  
+  .Adocao .Adote {
+    background-color: var(--main-color);
+    color: var(--second-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .Adocao .Adote:hover {
+    background-color: var(--header-color);
+    color: var(--second-color);
+  }
+  
+  
+  body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+  }
+  
+  .Principal {
+    background-color: var(--second-color);
+    padding: 20px;
+  }
+  
+  .Texto_Principal h1 {
+    color: var(--header-color);
+    font-size: var(--big-font);
+  }
+  
+  .Principais_Imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .Caixa {
+    background-color: var(--main-color);
+    color: var(--second-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .Caixa h3 {
+    font-size: var(--p-font);
+  }
+  
+  .Avisos {
+    margin-top: 20px;
+  }
+  
+  .Avisos h1 {
+    color: var(--header-color);
+    font-size: var(--big-font);
+  }
+  
